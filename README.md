@@ -1,5 +1,5 @@
 # fbcrawler
-fbcrawler
+讀取IdList.txt中Facebook ID，使用restfb API查詢每個Facebook ID的“談論這個的用戶”和“粉絲專頁按讚數”，並將結果存回VoltDB
 #安裝voltdb
 完整教學：https://github.com/VoltDB/voltdb/wiki/Building-VoltDB
 
