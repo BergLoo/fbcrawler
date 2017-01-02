@@ -34,4 +34,6 @@
 API查詢的部分，我使用執行緒(thread)，開了十條執行緒，使執行時間相較於單條執行緒一筆一筆查詢降低十倍(3000筆ID實測20分鐘->2分鐘)，另外，時間降低有極限，我曾經設定過100條執行緒，不僅facebook API權杖被ban掉，連宿舍網路都被切斷。也就是說執行速度可以再上去(開大於10條執行緒)，但不知道facebook API能接受到什麼程度。權杖也有request次數限制，所以如果發現存入db的筆數異常，則需再等一段時間才可再執行。
 
 #VoltDB 介紹  
-參考  https://read01.com/oALLLM.html   https://docs.voltdb.com/UsingVoltDB/
+參考  
+https://read01.com/oALLLM.html  
+https://docs.voltdb.com/UsingVoltDB/
