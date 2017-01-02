@@ -27,7 +27,7 @@ public class F74024012 extends Thread{
 			String line;
 			for(int i=0;i<(count-1)*300;i++){
 				br.readLine();
-			}
+			} 
 			for(int i=0;i<300;i++){
 				line=br.readLine();
 				A=F74024012_read(line);
